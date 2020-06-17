@@ -9,14 +9,15 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
         <title>Latitude - Data</title>
+        
         <style>
-            .center {
-              margin: auto;
-              width: 60%;
-              border: 3px solid #73AD21;
-              padding: 10px;
-            }
-        </style>
+		table {
+		  margin: 0 auto;
+		  text-align: center;
+		}
+		 
+		
+	</style>
     </head>
 <body>
     <!-- Optional JavaScript -->
@@ -66,14 +67,14 @@
                 </p>
                 
                 <script src="CsvToTable.js"></script>
-                <!-- <div class="center"> -->
-                    <script>
-                        var csvtotable = new CsvToTable({
-                            csvFile: 'Resources/cities.csv'
-                        });
-                        csvtotable.run();
-                    </script>
-                <!-- </div> -->
+                
+                <script>
+                    var csvtotable = new CsvToTable({
+                        csvFile: 'Resources/cities.csv'
+                    });
+                    csvtotable.run();
+                </script>
+                
                 
             </div>
             
