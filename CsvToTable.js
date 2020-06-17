@@ -76,7 +76,7 @@
 	            var rowCells = allRows[singleRow].split(',');
 	            for(var rowCell = 0; rowCell < rowCells.length; rowCell++){
 	                if(singleRow === 0){
-	                    table += '<th>';
+	                    table += '<th scope="row">';
 	                    table += rowCells[rowCell];
 	                    table += '</th>';
 	                } else {
